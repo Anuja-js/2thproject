@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/R fb.png" type="image/icon type">
+    <title>
+        Online sites for mobiles,electronics,furniture,glocery,lifestyle,book and more.Best offers!</title>
+   <!-- <span><img src="https://www.bing.com/ck/a?!&&p=4d4ef8f68718d445JmltdHM9MTcxODQwOTYwMCZpZ3VpZD0xNjgxNTAxOS0yZDczLTYzYmMtM2FjZS00Mjc1MmM4NDYyMGQmaW5zaWQ9NTYwNA&ptn=3&ver=2&hsh=3&fclid=16815019-2d73-63bc-3ace-42752c84620d&u=a1L2ltYWdlcy9zZWFyY2g_cT1mbGlwY3J0JTIwaWNvbiZGT1JNPUlRRlJCQSZpZD1BQjhFNEMwMUU0RTg0MDdFOEY5MUUyNDQ0RjJBODE4NkEyN0FFNzE1&ntb=1"></span> -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+</style>
+<link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body bgcolor="#f1f2f4">
+    
+<div id="container"></div>
+<!-- list of category -->
+ <section id="categories">
+ </section>
+<div class="longimg">
+ <img src="images/07d75d4ba99b5c51.webp" alt="" style="object-fit: contain; max-width: 100%; height: auto;">
+ <div style="display: flex;flex-direction: row;">
+ <img src="images/arro.png" alt="side box" style="position: absolute;top: 39%;right: 12px;">
+ <img src="images/Screenshot 2024-06-22 121646.png" alt="left" style="position: absolute;top: 39%;left: 12px;">
+ </div>
+
+ </div>
+
+
+<div id="row" ></div>
+<div id="rowadds" ></div>
+<div id="rowbox" ></div>
+<div id="textcode"></div>
+<div id="footer"></div>
+
+</body>
+</html>
+<script>
+    $(function(){
+        $("#container").load("navbar.html");
+    }
+    );</script>
+<script src="./index.js">
+</script>
+<script>
+    $(function(){
+        $("#footer").load("footer.html");
+    }
+    );</script>
+    <script>
+        $(function(){
+            $("#row").load("rowhorizontal.html");
+        }
+        );</script>
+         <script>
+            $(function(){
+                $("#rowadds").load("rowadds.html");
+            }
+            );</script>
+            <script>
+                $(function(){
+                    $("#rowbox").load("rowbox.html")
+                })
+            </script>
+            <script>
+                $(function(){
+                    $("#textcode").load("text.html")
+                })
+            </script>
+           

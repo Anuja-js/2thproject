@@ -1,0 +1,49 @@
+.container {
+    max-width: 100%;
+    height: auto;
+    margin-top: 25px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 20px;
+   
+}
+.h1 {
+    text-align: start;
+    color: #565656;
+    font-size: 16px ;
+    font-family: sans-serif,inter_semi_bold, fallback-inter_semi_bold, Arial ;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.parastyle{
+    color: #565656;
+    
+    font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;;
+    font-size: 12px;
+}
+.smalltext{
+    color: grey;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.h5{
+    text-align: start;
+    color: #565656;
+    
+    font: weight 4px;;
+}
+.modeltext{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    color: gray;
+}
+.h3{
+margin-top: 10px;margin-bottom: 10px;
+}
+/* .section {
+    margin-bottom: 20px;
+    margin-top: 15px;
+    
+} */
